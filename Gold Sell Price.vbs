@@ -13,8 +13,8 @@ Dim OurFinalRate
 Dim FinalPrice
 TroyOunces = 31.1034768
 PureGoldPurity = 24
-CurrentGoldPriceInUSD = 1745.31 
-ExchangeRateZar = 14.62
+CurrentGoldPriceInUSD = 1800.01 
+ExchangeRateZar = 15.71
 OurRate = 0.85
 OurFinalRate = 0.95
 
@@ -33,11 +33,11 @@ Function CalcGoldBuyingPrice()
             FinalPrice = (BuyingPrice * OurRate)
             
             MsgBox("We will purchase the gold for: R" & Round(FinalPrice,2))
-            'MsgBox("Does the customer Agree?")
-            'MsgBox("Final offer")
-            'MsgBox("We will purchase the gold for: R" & (BuyingPrice * OurFinalRate))
-            'MsgBox("We can sell for")
-            'MsgBox (BuyingPrice)
+            MsgBox("Does the customer Agree?")
+            MsgBox("Final offer")
+            MsgBox("We will purchase the gold for: R" & (BuyingPrice * OurFinalRate))
+            MsgBox("We can sell for")
+            MsgBox (BuyingPrice)
 End Function
 
 
